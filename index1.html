@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="view port" content="width=device-width, initial-scale=1">
+	<!-- <title>ROUNAK SUTHAR</title> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css">
+</head>
+<body style="background-image: url('Image/bbb.jpg');background-size: contain;">
+	<!-- <nav class="navbar navbar-light bg-light">
+	  	<a class="navbar-brand" href="#">
+	    	<img src="Image\123.png" width="90" height="60" class="d-inline-block align-top" alt="">
+	  	</a>
+	  	<span style="display: inline-block;">
+			<h1 font-family= "Monotype corsiva"><i>&ensp;The Contents are Build Here...</i>	</h1>
+		</span>
+		<img src="Image\456.png" width="200" height="100" class="pull-right img-responsive navbar navbar-light bg-light" alt="">
+		
+	</nav>	 -->
+	<!-- navbar	 -->
+	<nav style="float: right;" class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+	    <div class="navbar-nav mr-auto">
+			<ul class="nav navbar-nav mr-auto">
+			<!-- /#wrapper -->
+				<li><a href="index1.html" class="active" style="color: black;">Home</a></li>
+				<li><a href="about1.php" style="color: black;">About</a></li>	
+        <li><a href="index.php" target="_parent" style="color: black;">LOGOUT</a></li>
+		    </ul>
+		</div>
+	  </div>
+	</nav>
+	<div id="wrapper">
+       <!-- 	<div class="overlay"></div> -->
+	        <!-- Sidebar -->
+	        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+              <ul class="nav sidebar-nav">
+                  <li class="sidebar-brand">
+                      <a>
+                         U CONTENT
+                      </a>
+                  </li>
+                  <li>
+                      <a href="index1.html">Home</a>
+                  </li>
+                  <li>
+                      <a href="about1.php">about us</a>
+                  </li>
+                  <li>
+                      <a class="#">Current & World Affairs</a>
+                  </li>
+                  <li>
+                      <a href="about.html">History & Heritage</a>
+                  </li>
+                  <li>
+                      <a href="#">Quotes</a>
+                  </li>
+                  <li>
+                      <a href="#">Short Story</a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Entertainment <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li class="dropdown-header">Entertainment</li>
+                      <li><a href="#">Movies</a></li>
+                      <li><a href="#">Comedy</a></li>
+                      <li><a href="#">Sports</a></li>
+                      <li><a href="#">Music</a></li>
+                      <li><a href="#">Others</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                      <a class="#">Sports & Technology</a>
+                  </li>
+              </ul>
+          </nav>
+	        <!-- /#sidebar-wrapper -->
+	        <!-- Page Content -->
+	        <div id="page-content-wrapper">
+	            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+	                <span class="hamb-top"></span>
+	    			<span class="hamb-middle"></span>
+					<span class="hamb-bottom"></span>
+	            </button>
+	        </div>
+
+	        <div class="box">
+        <div class="container">
+          <div class="row">
+           
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                 
+                <div class="title">
+                  <h4>Enter your Content</h4>
+                  <hr>
+                </div>          
+                <div class="text">
+                  <form action="content.php" method="POST">
+                    
+                    <label for="Content Type"><b>Content Type:</b></label><br>
+                    <select name="contenttype" style="width:550px">
+                      <option value="Current & World Affairs">Current & World Affairs</option>
+                      <option value="History & Heritage">
+                      History & Heritage</option>
+                      <option value="Quote">Quotes</option>
+                      <option value="Short Story">Short Story</option>
+                      <option value="entertainment">entertainment</option>
+                      <option value="Sports & Technology">Sports & Technology</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="content"><b>Enter your content:</b></label><br>
+                    <textarea name="content" placeholder="please type here" style="width:550px">                      
+                    </textarea> 
+                    <button type="submit">Publish</button>
+                    <hr>
+                  </form>
+                </div>
+                            
+               </div>
+            </div>   
+            
+            
+              <!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5">
+
+  <div style="background-color: #21d192;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0"><b>Get connected with us on social networks!<b></h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->  
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f white-text mr-4"> </i>
+          </a>
+          &ensp;
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter white-text mr-4"> </i>
+          </a>
+          &ensp;
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+          </a>
+          &ensp;
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+          </a>
+          &ensp;
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram white-text"> </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Connect with us</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>CONTENT SPECIAL</p>
+        <a href="#Contact" data-target="#Contact" data-toggle="modal">Message Us</a>
+
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+     <!--  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" >
+        <h6 class="text-uppercase font-weight-bold">CONNECT WITH US</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a class="dark-grey-text" href="#login&register">SIGN UP NOW</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">ABOUT US</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">LEAVE A MESSAGE</a>
+        </p>
+
+      </div> -->
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="float: right;">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact us</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> SHREE L. R. TIWARI COLLEGE OF ENGINEERING</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i>slrtce.in</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i>+917715080048</p>
+        <p>
+          <i class="fas fa-print mr-3"></i>+917507595806</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-black-50 py-3">© 2019 Copyright:
+    <a class="dark-grey-text" href="https://slrtce.in"> SLRTCE</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	        <!-- /#page-content-wrapper -->
+	    </div>
+     <!--  <script>
+        function alert(){
+          var email_stored=getCookie();
+          alert("You are successfully logged in with emal "+email_stored);
+        }
+        function getCookie() {
+        var name = "email" + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+                }
+          return "";
+        }
+      </script> -->
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
