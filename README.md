@@ -21,3 +21,5 @@ $dbname = "id11475309_form123"
 2. contenttype varchar(30), NOT NULL
 3. content text, NOT NULL
 4. email varchar(30), NOT NULL
+
+##### CHECK HERE: https://ucontent.000webhostapp.com/
